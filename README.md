@@ -15,3 +15,5 @@ About "Writing an Interpreter in Go"
 Thorsten Ball's book guides you through the process of building a working interpreter for the Monkey programming language. It's a fantastic resource for learning about compilers, interpreters, and programming language design.
 
 Practice for Github.
+
+Chapter 1 - What I learned. Making tokens and making a lexer to turn symbols into tokens was an eye opening experience. I have a more complete understanding of what design choices are implemented in a language and how implemeting new features quickly complicates things, and that is just with turning symbols into tokens. I'm sure in the next chapter when we build a parser with actual logic there will be orders of magnitude more complication.

@@ -44,7 +44,7 @@ const (
 	ELSE     = "ELSE"
 	RETURN   = "RETURN"
 
-	// Strict equality "==", not equal.
+	// Strict equality "==", not equal "!=".
 	// Only double characters in language.
 	EQ     = "=="
 	NOT_EQ = "!="

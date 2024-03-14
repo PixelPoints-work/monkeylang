@@ -117,7 +117,7 @@ func (l *Lexer) readIdentifier() string {
 	return l.input[position:l.position]
 }
 
-/* isLetter is a small but powerful function that determines if the current character is a letter or a '_' */
+// isLetter is a small but powerful function that determines if the current character is a letter or a '_'
 func isLetter(ch byte) bool {
 	return 'a' <= ch && ch <= 'z' || 'A' <= ch && ch <= 'Z' || ch == '_'
 }
