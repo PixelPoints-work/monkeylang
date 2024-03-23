@@ -4,7 +4,7 @@ import "monkeylang/token"
 
 type Lexer struct {
 	input        string
-	position     int  //current position in input (points to current char)
+	position     int  // current position in input (points to current char)
 	readPosition int  // current reading position in input (after current char)
 	ch           byte // current char under examination
 }
@@ -139,3 +139,5 @@ func (l *Lexer) readNumber() string {
 func isDigit(ch byte) bool {
 	return '0' <= ch && ch <= '9'
 }
+
+// This is a comment to see if my new IDE works with Github
