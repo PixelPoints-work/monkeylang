@@ -1,3 +1,9 @@
+// Lexer package used to turn symbols into tokens, monkeylang is a small dynamically typed C style language.
+// If you wanted to add more features to the language in terms of symbols this is the place to do that.
+// Every symbol is turned into a string type token to keep things simple.
+// Overall with being new to programming ~ 3 months this has been an eye opening experience.
+// Helps me realize why programming languages have strict rules and are paticular about whitespace, token "grammer" etc....
+
 package lexer
 
 import "monkeylang/token"
@@ -139,5 +145,3 @@ func (l *Lexer) readNumber() string {
 func isDigit(ch byte) bool {
 	return '0' <= ch && ch <= '9'
 }
-
-// This is a comment to see if my new IDE works with Github
