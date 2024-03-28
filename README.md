@@ -17,3 +17,5 @@ Thorsten Ball's book guides you through the process of building a working interp
 Practice for Github.
 
 Chapter 1 - What I learned. Making tokens and making a lexer to turn symbols into tokens was an eye opening experience. I have a more complete understanding of what design choices are implemented in a language and how implemeting new features quickly complicates things, and that is just with turning symbols into tokens. I'm sure in the next chapter when we build a parser with actual logic there will be orders of magnitude more complication.
+
+Im going to put this book on hold for now. As of 3/27/24. I feel like im just copying from the book without fully grasping what is going on. Once I get more experience with programming I will revisit this book. "Parsing is hard....."
