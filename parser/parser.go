@@ -7,6 +7,17 @@ import (
 	"monkeylang/token"
 )
 
+const (
+	_ int = iota
+	LOWEST
+	EQUALS
+	LESSGREATER
+	SUM
+	PRODUCT
+	PREFIX
+	CALL
+)
+
 type Parser struct {
 	l      *lexer.Lexer
 	errors []string
@@ -21,17 +32,6 @@ type Parser struct {
 type (
 	prefixParseFn func() ast.Expression
 	infixParseFn  func(ast.Expression) ast.Expression
-)
-
-const (
-	_ int = iota
-	LOWEST
-	EQUALS
-	LESSGREATER
-	SUM
-	PRODUCT
-	PREFIX
-	CALL
 )
 
 func New(l *lexer.Lexer) *Parser {
